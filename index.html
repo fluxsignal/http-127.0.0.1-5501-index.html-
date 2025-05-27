@@ -22,11 +22,15 @@
 
 <link rel="stylesheet" type="text/css" href="css/vendor.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="css/common.css" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Marcellus&display=swap"
   rel="stylesheet">
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
 </head>
 
@@ -168,8 +172,8 @@
   </div>
 
 
-  <nav class="main-menu d-flex navbar fixed-top navbar-expand-lg py-4 ">
-    <div class="container-fluid px-md-5">
+  <nav class="main-menu d-flex navbar fixed-top navbar-expand-lg">
+    <div class="container-fluid">
 
       <button class="navbar-toggler border-0 shadow-none " type="button" data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -197,49 +201,38 @@
               <a href="index.html" class="nav-link mx-2 active">Home</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link mx-2 dropdown-toggle" role="button" id="Collections" data-bs-toggle="dropdown"
-                aria-expanded="false">Collections</a>
-              <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="Collections">
-                <li><a href="single-product.html" class="dropdown-item">Bridal Collection</a></li>
-                <li><a href="single-product.html" class="dropdown-item">Traditional Collection</a></li>
-                <li><a href="single-product.html" class="dropdown-item">Modern Collection</a></li>
-                <li><a href="single-product.html" class="dropdown-item">Festival Collection</a></li>
+              <a class="nav-link mx-2 dropdown-toggle" role="button" id="collections" data-bs-toggle="dropdown" aria-expanded="false">Collections</a>
+              <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="collections">
+                <li><a href="shop 2.html" class="dropdown-item">Bridal Collection</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Traditional Collection</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Modern Collection</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Festival Collection</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Everyday Essentials</a></li>
+              </ul>
             </li>
-            <li><a href="single-product.html" class="dropdown-item">Everyday Essentials</a></li>
-          </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link mx-2 dropdown-toggle" role="button" id="pages" data-bs-toggle="dropdown"
-              aria-expanded="false">Shop</a>
-            <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="pages">
-              <li><a href="shop.html" class="dropdown-item">Necklaces
-              <li><a href="single-product.html" class="dropdown-item">Bracelets</a></li>
-              <li><a href="single-product.html" class="dropdown-item">Earrings</a></li>
-              <li><a href="single-product.html" class="dropdown-item">Rings</a></li>
-
-              <li><a href="single-product.html" class="dropdown-item">Bangles & Bracelets</a></li>
-
-
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link mx-2 dropdown-toggle" role="button" id="pages" data-bs-toggle="dropdown"
-              aria-expanded="false">Blog</a>
-            <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="pages">
-              <li><a href="single-post.html" class="dropdown-item">Jewelry Guides</a></li>
-              <li><a href="blog.html" class="dropdown-item">Style & Trends</a></li>
-
-            </ul>
-          </li>
-
-        
-           <li class="nav-item">
-            <a href="contact.html" class="nav-link mx-2">ABOUT</a>
-          </li>
-
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle" role="button" id="shop" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+              <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="shop">
+                <li><a href="shop 2.html" class="dropdown-item">Necklaces</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Bracelets</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Earrings</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Rings</a></li>
+                <li><a href="shop 2.html" class="dropdown-item">Bangles & Bracelets</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link mx-2 dropdown-toggle" role="button" id="blog" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+              <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="blog">
+                <li><a href="single-post.html" class="dropdown-item">Jewelry Guides</a></li>
+                <li><a href="blog.html" class="dropdown-item">Style & Trends</a></li>
+              </ul>
+            </li>
             <li class="nav-item">
-            <a href="contact.html" class="nav-link mx-2">Contact</a>
-          </li>
+              <a href="about.html" class="nav-link mx-2">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link mx-2">Contact</a>
+            </li>
           </ul>
 
           <div class="d-none d-lg-flex justify-content-end">
@@ -318,12 +311,12 @@
     </div>
   </nav>
 
-  <section id="hero">
+  <section id="hero" style="height: 85vh; overflow: hidden;">
     <div class="swiper slideshow">
       <div class="swiper-wrapper">
-        <div class="swiper-slide" style="background-image:url(images/banner1.jpg)">
-          <div class="container-fluid px-5 padding-large" style="background: rgb(0 0 0 / 12%);">
-            <div class="row">
+        <div class="swiper-slide" style="background-image:url(images/banner1.jpg); background-size: cover; background-position: center;">
+          <div class="container-fluid px-5" style="background: rgb(0 0 0 / 12%); height: 100%;">
+            <div class="row h-100 align-items-center">
               <div class="text-center" data-aos="fade-up" data-aos-delay="300">
                 <h2 class="display-1 text-warning mt-3 banner-content">Shine with Sanskriti</h2>
                 
@@ -335,11 +328,11 @@
             </div>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image:url(images/banner2.jpg); ">
-          <div class="container-fluid px-5 padding-large" style="background: rgb(0 0 0 / 12%);">
-            <div class="row">
+        <div class="swiper-slide" style="background-image:url(images/banner2.jpg); background-size: cover; background-position: center;">
+          <div class="container-fluid px-5" style="background: rgb(0 0 0 / 12%); height: 100%;">
+            <div class="row h-100 align-items-center">
               <div class="text-center" data-aos="fade-up" data-aos-delay="600">
-                <h2 class="display-1  text-white mt-3 banner-content"> Timeless. Elegant.You</h2>
+                <h2 class="display-1 text-white mt-3 banner-content"> Timeless. Elegant.You</h2>
                 <p class="text-capitalize text-white fs-5 mb-4">Discover Your Individuality with our diverse range of stunning jewelry that honors tradition values.</p>
                 <a href="#" class="btn btn-outline-light btn-wrap">
                   Start Shopping
@@ -348,12 +341,12 @@
             </div>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image:url(images/banner3.jpg);">
-          <div class="container-fluid px-5 padding-large" style="background: rgb(0 0 0 / 12%);">
-            <div class="row">
+        <div class="swiper-slide" style="background-image:url(images/banner3.jpg); background-size: cover; background-position: center;">
+          <div class="container-fluid px-5" style="background: rgb(0 0 0 / 12%); height: 100%;">
+            <div class="row h-100 align-items-center">
               <div class="text-center" data-aos="fade-up" data-aos-delay="900">
                 <h2 class="display-1 text-uppercase text-white mt-3 banner-content">Radiate Eternal Beauty</h2>
-                <p class=" text-white fs-5 mb-4">Celebrate the beauty that never fades—with jewels crafted to endure</p>
+                <p class="text-white fs-5 mb-4">Celebrate the beauty that never fades—with jewels crafted to endure</p>
                 
                 <a href="#" class="btn btn-outline-light btn-wrap">
                   Start Shopping
@@ -367,6 +360,37 @@
     </div>
   </section>
 
+
+  <!-- Featured Start -->
+  <div class="container-fluid pt-3">
+    <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                <h1 class="fa fa-check text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">Quality Product</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                <h1 class="fa fa-shipping-fast text-primary m-0 mr-2"></h1>
+                <h5 class="font-weight-semi-bold m-0">Free Shipping</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                <h1 class="fas fa-exchange-alt text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">14-Day Return</h5>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center bg-light mb-4" style="padding: 30px;">
+                <h1 class="fa fa-phone-volume text-primary m-0 mr-3"></h1>
+                <h5 class="font-weight-semi-bold m-0">24/7 Support</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured End -->
 
 
   <section id="category" class="container-fluid px-3 px-md-5 p-5">
@@ -663,8 +687,31 @@
     </div>
   </section>
 
-  <section id="best-seller" class="product-store">
-    <div class="container-fluid px-3 px-md-5  padding-medium">
+    <!-- Offer Start -->
+    <div class="container-fluid pt-5 pb-3">
+      <div class="row px-xl-5">
+          <div class="col-md-6">
+              <div class="product-offer mb-30" style="height: 300px;">
+                  <img class="img-fluid" src="images/offer-1.jpg" alt="">
+                  <div class="offer-text" style="padding-top: 40px;" align="center">
+                      <a href="" class="btn btn-primary" style="padding: 10px 20px;">Shop Now</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <div class="product-offer mb-30" style="height: 300px;">
+                  <img class="img-fluid" src="images/offer-2.jpg" alt="">
+                  <div class="offer-text" style="padding-top: 40px;" align="center">
+                      <a href="" class="btn btn-primary" style="padding: 10px 20px;">Shop Now</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Offer End -->
+
+  <section id="best-seller" class="product-store" style="padding-top: 25rem;">
+    <div class="container-fluid px-3 px-md-5">
       <h2 class="display-5 fw-light  text-center">Best selling products</h2>
       <div class="row">
         <div class="col-md-6 col-lg-3 my-4">
@@ -1044,145 +1091,7 @@ Be the first to shine in the latest looks.</p>
     </div>
   </section>
 
-  <footer id="footer">
-    <div class="container-fluid px-3 px-md-5 pt-4">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="footer-menu">
-            <p class="mt-4">© 2025 Sanskriti Jewels. All rights reserved.</p>
-            <div class="social-links mt-4">
-              <ul class="d-flex list-unstyled gap-3">
-                <li class="social">
-                  <a href="#">
-                    <iconify-icon class="social-icon fs-4 me-4 text-white" icon="ri:facebook-fill"></iconify-icon>
-                  </a>
-                </li>
-                <li class="social">
-                  <a href="#">
-                    <iconify-icon class="social-icon fs-4 me-4 text-white" icon="ri:twitter-fill"></iconify-icon>
-                  </a>
-                </li>
-                <li class="social">
-                  <a href="#">
-                    <iconify-icon class="social-icon fs-4 me-4 text-white" icon="ri:pinterest-fill"></iconify-icon>
-                  </a>
-                </li>
-                <li class="social">
-                  <a href="#">
-                    <iconify-icon class="social-icon fs-4 me-4 text-white" icon="ri:instagram-fill"></iconify-icon>
-                  </a>
-                </li>
-                <li class="social">
-                  <a href="#">
-                    <iconify-icon class="social-icon fs-4 me-4 text-white" icon="ri:youtube-fill"></iconify-icon>
-                  </a>
-                </li>
-
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="footer-menu">
-            <h6 class="text-uppercase fw-bold  mb-4">Quick Links</h6>
-            <ul class="menu-list list-unstyled">
-              <li class="menu-item">
-                <a href="#" class="footer-link">Home</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">About us</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Offer </a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Services</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Conatct Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="footer-menu">
-            <h6 class="text-uppercase fw-bold  mb-4">About</h6>
-            <ul class="menu-list list-unstyled">
-              <li class="menu-item">
-                <a href="#" class="footer-link">How It Work</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Our Packages</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">promotions</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">refer a friend</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="footer-menu">
-            <h6 class="text-uppercase fw-bold  mb-4">Services</h6>
-            <ul class="menu-list list-unstyled">
-              <li class="menu-item">
-                <a href="#" class="footer-link">Payments</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Shipping</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Product returns </a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">FAQs</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Checkout</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">other Issues</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="footer-menu">
-            <h6 class="text-uppercase fw-bold  mb-4">Help Center</h6>
-            <ul class="menu-list list-unstyled">
-              <li class="menu-item">
-                <a href="#" class="footer-link">Payments</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Shipping</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Product returns </a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">FAQs</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">Checkout</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="footer-link">other Issues</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </footer>
-
-  <div id="footer-bottom">
-    <hr class="m-0">
-    <div class="container-fluid  px-3 px-md-5 py-2">
-    </div>
-  </div>
+  <div id="footer"></div>
 
 
   <script src="js/jquery-1.11.0.min.js"></script>
@@ -1193,6 +1102,20 @@ Be the first to shine in the latest looks.</p>
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  <script>
+    $(document).ready(function () {
+    $("#header").load("components/header.html", function () {
+      $(".nav-item a[href='index.html']").addClass("active");
+    });
+    // Remove the footer load
+  $("#footer").load("components/footer.html");
+
+  });
+    // Add preloader fade out
+    $(window).on("load", function() {
+      $("#preloader").fadeOut("slow");
+    });
+  </script>
 </body>
 
 </html>

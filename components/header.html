@@ -1,0 +1,345 @@
+<nav class="main-menu d-flex navbar fixed-top navbar-expand-lg py-4">
+  <div class="container-fluid px-md-5">
+    <!-- Logo -->
+    <div class="main-logo">
+      <a href="index.html">
+        <img
+          src="images/logo.png"
+          style="max-height: 100px"
+          alt="logo"
+          class="img-fluid"
+        />
+      </a>
+    </div>
+
+    <!-- Navbar toggler for mobile -->
+    <button
+      class="navbar-toggler border-0 shadow-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Offcanvas menu for mobile -->
+    <div
+      class="offcanvas offcanvas-end"
+      style="background-color: rgb(77 23 47)"
+      tabindex="-1"
+      id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header justify-content-center">
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <!-- Navigation menu -->
+        <ul class="navbar-nav menu-list list-unstyled d-flex gap-md-3 mb-0">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link mx-2">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link mx-2 dropdown-toggle"
+              role="button"
+              id="Collections"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Collections</a
+            >
+            <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="Collections">
+              <li>
+                <a href="collections.html?type=bridal" class="dropdown-item"
+                  >Bridal Collection</a
+                >
+              </li>
+              <li>
+                <a
+                  href="collections.html?type=traditional"
+                  class="dropdown-item"
+                  >Traditional Collection</a
+                >
+              </li>
+              <li>
+                <a href="collections.html?type=modern" class="dropdown-item"
+                  >Modern Collection</a
+                >
+              </li>
+              <li>
+                <a href="collections.html?type=festival" class="dropdown-item"
+                  >Festival Collection</a
+                >
+              </li>
+              <li>
+                <a href="collections.html?type=everyday" class="dropdown-item"
+                  >Everyday Essentials</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link mx-2 dropdown-toggle"
+              role="button"
+              id="pages"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Shop</a
+            >
+            <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="pages">
+              <li>
+                <a href="shop.html?category=necklaces" class="dropdown-item"
+                  >Necklaces</a
+                >
+              </li>
+              <li>
+                <a href="shop.html?category=earrings" class="dropdown-item"
+                  >Earrings</a
+                >
+              </li>
+              <li>
+                <a href="shop.html?category=bracelets" class="dropdown-item"
+                  >Bracelets</a
+                >
+              </li>
+              <li>
+                <a href="shop.html?category=rings" class="dropdown-item"
+                  >Rings</a
+                >
+              </li>
+              <li>
+                <a href="shop.html?category=anklets" class="dropdown-item"
+                  >Anklets</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link mx-2 dropdown-toggle"
+              role="button"
+              id="pages"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              >Blog</a
+            >
+            <ul class="dropdown-menu p-3 p-lg-0" aria-labelledby="pages">
+              <li>
+                <a href="single-post.html" class="dropdown-item"
+                  >Jewelry Guides</a
+                >
+              </li>
+              <li>
+                <a href="blog.html" class="dropdown-item">Style & Trends</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link mx-2">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link mx-2">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Right side icons - visible on desktop -->
+    <div class="ms-auto d-none d-lg-flex">
+      <ul class="d-flex justify-content-end list-unstyled m-0">
+        <li class="lh-1">
+          <a href="account.html" class="mx-3">
+            <iconify-icon
+              icon="healthicons:person"
+              class="fs-4 text-light"
+            ></iconify-icon>
+          </a>
+        </li>
+        <li class="lh-1">
+          <a href="wishlist.html" class="mx-3">
+            <iconify-icon
+              icon="mdi:heart"
+              class="fs-4 text-light"
+            ></iconify-icon>
+          </a>
+        </li>
+        <li class="lh-1">
+          <a
+            href="#"
+            class="mx-3"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasCart"
+            aria-controls="offcanvasCart"
+          >
+            <iconify-icon
+              icon="mdi:cart"
+              class="fs-4 text-light position-relative"
+            ></iconify-icon>
+            <span
+              class="position-absolute translate-middle badge rounded-circle bg-light p-1"
+              style="color: rgb(77 23 47)"
+              >03</span
+            >
+          </a>
+        </li>
+        <li class="lh-1">
+          <a
+            href="#"
+            class="mx-3"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasSearch"
+            aria-controls="offcanvasSearch"
+          >
+            <iconify-icon
+              icon="tabler:search"
+              class="fs-4 text-light"
+            ></iconify-icon>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Mobile icons - visible on mobile only -->
+  <div class="container-fluid px-md-5 d-lg-none">
+    <ul class="d-flex justify-content-end list-unstyled m-0 mt-4">
+      <li class="lh-1">
+        <a href="account.html" class="me-4">
+          <iconify-icon
+            icon="healthicons:person"
+            class="fs-4 text-light"
+          ></iconify-icon>
+        </a>
+      </li>
+      <li class="lh-1">
+        <a href="wishlist.html" class="me-4">
+          <iconify-icon icon="mdi:heart" class="fs-4 text-light"></iconify-icon>
+        </a>
+      </li>
+      <li class="lh-1">
+        <a
+          href="#"
+          class="me-4"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasCart"
+          aria-controls="offcanvasCart"
+        >
+          <iconify-icon
+            icon="mdi:cart"
+            class="fs-4 text-light position-relative"
+          ></iconify-icon>
+          <span
+            class="position-absolute translate-middle badge rounded-circle bg-light p-1"
+            style="color: rgb(77 23 47)"
+            >03</span
+          >
+        </a>
+      </li>
+      <li class="lh-1">
+        <a
+          href="#"
+          class="me-4"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasSearch"
+          aria-controls="offcanvasSearch"
+        >
+          <iconify-icon
+            icon="tabler:search"
+            class="fs-4 text-light"
+          ></iconify-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Cart Offcanvas -->
+<div
+  class="offcanvas offcanvas-end"
+  data-bs-scroll="true"
+  tabindex="-1"
+  id="offcanvasCart"
+  aria-labelledby="My Cart"
+>
+  <div class="offcanvas-header justify-content-center">
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="order-md-last">
+      <h4 class="d-flex justify-content-between align-items-center mb-4">
+        <span class="text-primary">Your cart</span>
+        <span class="badge bg-primary rounded-circle pt-2">3</span>
+      </h4>
+
+      <ul class="list-group mb-4">
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+          <div>
+            <h6 class="my-0">Red Sunglasses</h6>
+            <small class="text-body-secondary">Brief description</small>
+          </div>
+          <span class="text-body-secondary">$120</span>
+        </li>
+        <!-- ... other cart items ... -->
+        <li class="list-group-item d-flex justify-content-between">
+          <span class="fw-bold">Total (USD)</span>
+          <strong>$250</strong>
+        </li>
+      </ul>
+
+      <button class="w-100 btn btn-dark" type="submit">
+        Continue to checkout
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- Search Offcanvas -->
+<div
+  class="offcanvas offcanvas-end"
+  data-bs-scroll="true"
+  tabindex="-1"
+  id="offcanvasSearch"
+  aria-labelledby="Search"
+>
+  <div class="offcanvas-header justify-content-center">
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="order-md-last">
+      <h4 class="text-primary text-uppercase mb-3">Search</h4>
+      <div class="search-bar border rounded-2 border-dark-subtle">
+        <form
+          id="search-form"
+          class="text-center d-flex align-items-center"
+          action=""
+          method=""
+        >
+          <input
+            type="text"
+            class="form-control border-0 bg-transparent"
+            placeholder="Search Here"
+          />
+          <iconify-icon icon="tabler:search" class="fs-4 me-3"></iconify-icon>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

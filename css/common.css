@@ -1,0 +1,190 @@
+/* Navigation styles */
+.nav-item .nav-link.active {
+  color: #ffc107 !important; /* Bootstrap warning color */
+  font-weight: bold;
+}
+
+.main-menu {
+  background-color: rgb(1 30 56);
+}
+
+.nav-link {
+  color: #fff !important; /* Force white color */
+}
+
+.nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Dropdown styles */
+.dropdown-menu {
+  background-color: rgb(1 30 56);
+  border: none;
+}
+
+.dropdown-item {
+  color: #fff !important;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffc107 !important;
+}
+
+/* Mobile menu styles */
+.navbar-toggler-icon {
+  filter: invert(1); /* Make hamburger menu white */
+}
+
+.offcanvas-end {
+  width: 300px;
+}
+
+/* Offcanvas styles */
+.offcanvas {
+  background-color: #fff;
+}
+
+/* Main content padding */
+main {
+  padding-top: 100px !important; /* Account for fixed navbar */
+}
+
+/* Footer styles */
+#footer {
+  /* background-color: rgb(77 23 47); */
+  color: #fff;
+}
+
+#footer-bottom {
+  background-color: rgb(77 23 47);
+}
+
+#footer-bottom hr {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+
+.footer-menu h6 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-link:hover {
+  color: #ffc107;
+}
+
+.social-links a {
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ffc107 !important;
+}
+
+/* Utility classes */
+.text-light {
+  color: #fff !important;
+}
+
+/* Original preloader styles */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+#loader {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  border-top-color: #333;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Remove the new preloader styles */
+.preloader {
+  display: none;
+}
+
+/* Additional styles */
+.navbar {
+  /* background-color: rgb(77 23 47); */
+}
+
+/* Fix for mobile menu */
+@media (max-width: 991px) {
+  .navbar-toggler {
+    color: #fff;
+  }
+  
+  .offcanvas-body .main-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .offcanvas-body .navbar-nav {
+    margin-top: 20px;
+  }
+}
+
+/* Fix for dropdown menus */
+.dropdown-menu.show {
+  display: block;
+  margin-top: 0;
+}
+
+/* Add this to your common.css file */
+.main-menu .container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+.main-menu .navbar-nav {
+  margin-left: 20px; /* Space between logo and menu */
+}
+
+/* For desktop view */
+@media (min-width: 992px) {
+  .main-menu .offcanvas-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-menu .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .main-menu .offcanvas {
+    position: static;
+    visibility: visible;
+    background-color: transparent !important;
+    border: none;
+    width: auto;
+  }
+}
